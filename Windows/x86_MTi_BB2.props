@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Program Files\Point Grey Research\PGR FlyCapture\include;C:\Program Files\Point Grey Research\Triclops Stereo Vision SDK\include;C:\Program Files\Xsens\MT SDK\Software Development\CMTDllCom;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Point Grey Research\PGR FlyCapture\lib;C:\Program Files\Point Grey Research\Triclops Stereo Vision SDK\lib;C:\Program Files\Xsens\MT SDK\Software Development\CMTDllCom;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>xsens_cmt.lib;triclops.lib;pnmutilsd.lib;pnmutils.lib;pgrflycapturegui.lib;PGRFlyCapture.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
